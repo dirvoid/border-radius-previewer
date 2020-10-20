@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div class="box"></div>
+
+    <!-- whole -->
+
+    <div class="sliders">
+      <div id="text">
+      <h4>Border-Radius</h4>
+      <p>1</p>
+      </div>
+      <input type="range" min="1" max="155" value="1" id="slider-whole" oninput="updater()">
+    </div>
+
+    <!--top left-->
+
+     <div class="sliders">
+      <div id="text-top-left">
+      <h4>Border-Top-Left-Radius</h4>
+      <p>1</p>
+      </div>
+      <input type="range" min="1" max="155" value="1" id="slider-top-left" oninput="updaterTLT()">
+    </div>
+
+    <!-- top right -->
+
+     <div class="sliders">
+      <div id="text-top-right">
+      <h4>Border-Top-Right-Radius</h4>
+      <p>1</p>
+      </div>
+      <input type="range" min="1" max="155" value="1" id="slider-top-right" oninput="updaterTRT()">
+    </div>
+     
+     <!-- bottom left --> 
+
+     <div class="sliders">
+       <div id="text-bottom-left">
+      <h4>Border-Bottom-Left-Radius</h4>
+      <p>1</p>
+      </div>
+      <input type="range" min="1" max="155" value="1" id="slider-bottom-left" oninput="updaterBTLT()">
+    </div>
+     
+     <!-- bottom right --> 
+
+     <div class="sliders">
+      <div id="text-bottom-right">
+      <h4>Border-Bottom-Right-Radius</h4>
+      <p>1</p>
+      </div>
+      <input type="range" min="1" max="155" value="1" id="slider-bottom-right" oninput="updaterBTRT()">
+    </div>
+  </body>
+</html>
